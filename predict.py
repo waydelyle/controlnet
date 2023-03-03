@@ -11,7 +11,7 @@ import numpy as np
 from typing import List
 from utils import get_state_dict_path, download_model, model_dl_urls, annotator_dl_urls
 
-MODEL_TYPE = "openpose"
+MODEL_TYPE = "mlsd"
 
 if MODEL_TYPE == "canny":
     from gradio_canny2image import process_canny
